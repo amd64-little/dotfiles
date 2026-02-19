@@ -1,0 +1,5 @@
+# Allow .gdbinit files to be loaded by GDB when in the home directory
+add-auto-load-safe-path $HOME
+
+# Tries to stop GDB from disabling ASLR
+set disable-randomization off
